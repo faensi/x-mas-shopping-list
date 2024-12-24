@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("./christmas-background.webp");
+    background-size: cover;
+    height: 100vh;
+    background-position: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+input.text-field {
+    background-color: #4d383881;
+    color: rgb(41, 41, 41);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input.text-field::placeholder {
+    color: gold;
+    padding: 5px;
+}
+
+button#add-button {
+    background-color: rgba(231, 8, 8, 0.5);
+    color: rgb(41, 41, 41);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: rgb(255, 255, 255, 0.3);
+
+    border-style: solid;
+    border-width: 2px;
+    border-image: linear-gradient(45deg, gold, red) 1;
+
+    padding: 12px;
+    max-width: 800px;
+    margin: 20px auto 0;
+}
+
+ul {
+    list-style: none;
+}
